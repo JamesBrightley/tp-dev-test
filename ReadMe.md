@@ -19,13 +19,13 @@ Build out the existing component located in `\wwwroot\js\vue-components\file-upl
  - Max file size is 2MB
 
 ## Code Test
-Add a controller to handle the file upload request. Create a service based on the `IFileUploadService` interface and implement the logic to upload to the container `dev-test-files` in Azure Storage. The storage account has been created specifically for this test so don't worry about deleting anything here. There's a helper (`AzureStorageHelper.GetContainerForDevTest()`) created to get the storage container, you'll need to pass the credentials to it from appsettings.js
+Update the `FilesController` to handle the file upload request. Create a service based on the `IFileUploadService` interface and implement the logic to upload to the container `dev-test-files` in Azure Storage. The storage account has been created specifically for this test so don't worry about deleting anything here. There's a helper (`AzureStorageHelper.GetContainerForDevTest()`) created to get the storage container, you'll need to pass the credentials to it from `appsettings.json` credentials provided separately.
 
 **Requirements**
  - Check for naming conflicts when uploading to storage account 
  - Max file size is 2MB
 
 ### Notes
- - Azure Account Credentials are located in `appsettings.json`
+ - Azure Account Credentials will be provided separately for you to update `appsettings.json`
  - This is an assessment across various code technologies and style, we'll not just be looking for working code but the whole solution including validation, naming conventions, error handling, comments etc.
  - Feel free to use any other components from [ElementUI](https://element.eleme.io/#/en-US/component/installation) library to improve the upload experience.
