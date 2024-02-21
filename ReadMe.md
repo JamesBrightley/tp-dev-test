@@ -28,4 +28,4 @@ Add a controller to handle the file upload request. Create a service based on th
 ### Notes
  - Azure Account Credentials are located in `appsettings.json`
  - This is an assessment across various code technologies and style, we'll not just be looking for working code but the whole solution including validation, naming conventions, error handling, comments etc.
- - Feel free to use any other components from [ElementUI]([Component | Element](https://element.eleme.io/#/en-US/component/installation) library to improve the upload experience.
+ - Feel free to use any other components from [ElementUI](https://element.eleme.io/#/en-US/component/installation) library to improve the upload experience.
