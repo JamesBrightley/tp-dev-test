@@ -1,4 +1,4 @@
-# TProfile Code Assessment
+# Code Assessment
 
 This is designed to be a simple assessment to establish your skill level and coding style. The aim is to create a file upload component in Vue that allows for the upload of an image to an Azure blob storage account and for it then to then be displayed on the same page.
 
